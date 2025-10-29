@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:id="@+id/tv_judul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cara Penggunaan Aplikasi"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginBottom="8dp"
+        android:lineSpacingExtra="4dp" />
+    <TextView
+        android:id="@+id/tv_keterangan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="How To Use"
+        android:textSize="20sp"
+        android:layout_marginBottom="8dp"
+        android:lineSpacingExtra="4dp" />
+    <TextView
+        android:id="@+id/usage_content1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1. Masukkan Data Polusi Udara"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp"
+        android:textColor="@color/black"
+        android:lineSpacingExtra="10dp" />
+    <TextView
+        android:id="@+id/usage_content1_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="18dp"
+        android:text="Input parameter seperti PM2.5, NO2, suhu, dan kelembapan melalui formulir yang tersedia."
+        android:textSize="14sp"
+        android:paddingBottom="10dp"
+        android:textColor="@color/black"
+        android:lineSpacingExtra="10dp" />
+    <TextView
+        android:id="@+id/usage_content2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2. Lakukan Prediksi"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:paddingBottom="10dp"
+        android:textColor="@color/black"
+        android:lineSpacingExtra="10dp" />
+    <TextView
+        android:id="@+id/usage_content2_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="18dp"
+        android:text="Tekan tombol Prediksi untuk memproses data dan mendapatkan hasil kualitas udara."
+        android:textSize="14sp"
+        android:paddingBottom="10dp"
+        android:textColor="@color/black"
+        android:lineSpacingExtra="10dp" />
+    <TextView
+        android:id="@+id/usage_content3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="3. Lihat Hasil Prediksi"
+        android:textSize="16sp"
+        android:paddingBottom="10dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:lineSpacingExtra="10dp" />
+    <TextView
+        android:id="@+id/usage_content3_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="18dp"
+        android:text="Hasil prediksi akan ditampilkan dalam kategori seperti Baik, Sedang, Tidak Sehat, atau Sangat Tidak Sehat."
+        android:textSize="14sp"
+        android:paddingBottom="20dp"
+        android:textColor="@color/black"
+        android:lineSpacingExtra="10dp" />
+    <TextView
+        android:id="@+id/usage_content4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Informasi parameter"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:paddingBottom="10dp"
+        android:textColor="@color/black"
+        android:lineSpacingExtra="10dp" />
+    <TextView
+        android:id="@+id/usage_content4_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1. PM10: Partikel kecil di udara.&#10;2. SO2: Gas dari pembakaran bahan bakar fosil.&#10;3. CO: Gas beracun dari pembakaran tidak sempurna.&#10;4. O3: Ozon adalah gas dari reaksi kimia di atmosfer. &#10;5. NO2: Gas dari kendaraan dan pabrik.&#10;6. Max: Angka yang menunjukkan risiko udara terburuk."
+        android:paddingBottom="10dp"
+        android:textColor="@color/black"
+        android:lineSpacingExtra="10dp" />
+    <Button
+        android:id="@+id/button_back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kembali"
+        android:textColor="@android:color/white"
+        android:background="@drawable/button_background"
+        android:layout_marginTop="16dp"
+        android:textSize="14sp" />
+</LinearLayout>

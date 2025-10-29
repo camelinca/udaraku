@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="26dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:orientation="vertical"
+        android:paddingBottom="16dp">
+        <TextView
+            android:id="@+id/tv_judul"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Input Predict"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            >
+        </TextView>
+        <TextView
+            android:id="@+id/tv_keterangan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Masukkan indikator udara hari ini"
+            android:textSize="14sp"
+            >
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/header"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/tv_pm10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="pm10"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginBottom="4dp">
+        </TextView><EditText
+            android:id="@+id/et_pm10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/edittext_border_selector"
+            android:hint="Masukkan nilai pm10"
+            android:minHeight="48dp"
+            android:padding="12dp"
+            android:textSize="14sp" />
+        <TextView
+            android:id="@+id/tv_so2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="so2"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginBottom="4dp">
+        </TextView><EditText
+            android:id="@+id/et_so2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/edittext_border_selector"
+            android:hint="Masukkan nilai so2"
+            android:minHeight="48dp"
+            android:padding="12dp"
+            android:textSize="14sp" />
+        <TextView
+            android:id="@+id/tv_co"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="co"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginBottom="4dp">
+        </TextView><EditText
+            android:id="@+id/et_co"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/edittext_border_selector"
+            android:hint="Masukkan nilai co"
+            android:minHeight="48dp"
+            android:padding="12dp"
+            android:textSize="14sp" />
+        <TextView
+            android:id="@+id/tv_o3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="o3"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginBottom="4dp">
+        </TextView><EditText
+            android:id="@+id/et_o3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/edittext_border_selector"
+            android:hint="Masukkan nilai o3"
+            android:minHeight="48dp"
+            android:padding="12dp"
+            android:textSize="14sp" />
+        <TextView
+            android:id="@+id/tv_no2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="no2"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginBottom="4dp">
+        </TextView><EditText
+            android:id="@+id/et_no2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/edittext_border_selector"
+            android:hint="Masukkan nilai no2"
+            android:minHeight="48dp"
+            android:padding="12dp"
+            android:textSize="14sp" />
+        <TextView
+            android:id="@+id/tv_max"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="max"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginBottom="4dp">
+        </TextView><EditText
+            android:id="@+id/et_max"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/edittext_border_selector"
+            android:hint="Masukkan nilai max"
+            android:minHeight="48dp"
+            android:padding="12dp"
+            android:textSize="14sp" />
+        <Button
+            android:id="@+id/btn_prediksi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Prediksi"
+            android:textColor="@android:color/white"
+            android:background="@drawable/button_background"
+            android:layout_marginTop="16dp"
+            android:textSize="14sp"
+            />
+    </LinearLayout>s
+
+</androidx.constraintlayout.widget.ConstraintLayout>

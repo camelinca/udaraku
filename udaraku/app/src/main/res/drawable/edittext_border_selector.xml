@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Saat EditText tidak dalam fokus -->
+    <item android:drawable="@drawable/normal_border" android:state_focused="false" android:state_pressed="false" />
+
+    <!-- Saat EditText dalam fokus atau ditekan -->
+    <item android:drawable="@drawable/focused_border" android:state_focused="true" />
+    <item android:drawable="@drawable/focused_border" android:state_pressed="true" />
+</selector>
