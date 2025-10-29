@@ -8,6 +8,6 @@ pip install -r requirements.txt
 python main.py
 ```
 2️⃣ Menjalankan Aplikasi Android
--Buka folder udaraku di Android Studio
--Pastikan emulator atau perangkat terhubung
--Klik ▶️ Run
+1. Buka folder `udaraku/` di **Android Studio**  
+2. Pastikan emulator atau perangkat terhubung  
+3. Klik ▶️ **Run**
